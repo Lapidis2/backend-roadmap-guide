@@ -1,75 +1,82 @@
-# wireframing
-## Description
-Wireframing is a crucial step in the design process, serving as a blueprint or skeletal framework of a website or application. 
-It outlines the basic structure and layout without delving into detailed design elements like colors, fonts, or images. Wireframes focus on the placement of elements, navigation flow, and overall user interface structure.
+# Backend Engineering Interview Roadmap
 
-## Key Elements of a Wireframe
+Welcome! This repository is a **lesson-by-lesson study guide** designed to take a complete beginner from "I don't know what backend engineering is" to "I can confidently pass a backend engineering interview" — specifically tuned for the kind of questions asked in **AmaliTech backend engineering interviews**.
 
-Wireframes are essential tools in the design process, focusing on the fundamental structure and layout of a website or application. The following key elements are typically found in wireframes:
+> 🎯 **Goal:** By the end of this roadmap, you should be able to explain core backend concepts clearly, write simple working code, and answer interview questions with the confidence of someone who *understands* — not someone who *memorized*.
 
-### 1. Layout Structure  
-The layout structure defines the overall arrangement of elements on a page, such as headers, footers, sidebars, and content areas. It helps organize information clearly and ensures a logical flow for users.  
-**Example:** Placing the main navigation at the top and a sidebar on the left helps users easily find important links and content.
+---
 
-### 2. Navigation  
-Navigation refers to the menus, buttons, or links that allow users to move through different sections or pages of the site/app. It is critical for usability and user experience.  
-**Example:** A horizontal menu bar with dropdowns enables users to quickly access subpages without cluttering the main interface.
+## 👤 Who is this for?
 
-### 3. Content Placement  
-This element determines where text, images, videos, and other content will appear on the page. Proper content placement ensures readability and draws attention to key information.  
-**Example:** Highlighting a call-to-action button near the top of the page encourages users to take the desired action immediately.
+- Complete beginners to backend engineering
+- Junior developers preparing for technical interviews
+- Self-taught programmers who know how to code but have never been interviewed
+- Anyone who wants a structured, no-fluff path to interview readiness
 
-### 4. Functionality  
-Functionality represents interactive components and features such as buttons, forms, search bars, or sliders. Wireframes indicate where these elements will be placed and how users will interact with them.  
-**Example:** Including a search bar in the top-right corner helps users quickly find specific information without navigating through menus.
+You do **not** need prior backend experience. You do need to be able to read basic code and be willing to type things out yourself (reading is not enough — typing builds memory).
 
-By focusing on these elements, wireframes help designers and developers create intuitive, user-friendly interfaces before moving on to detailed design and development.
+---
 
-## Types of Wireframes
+## 🗺️ How to use this roadmap
 
-### Low-Fidelity Wireframes  
-Simple sketches or basic digital layouts focusing on overall structure and functionality without detailed design. They are quick to create and easy to modify, making them ideal for early-stage brainstorming and feedback.
+1. **Go in order.** Each lesson builds on the one before it. Don't skip ahead, even if a topic looks "easy" — the early lessons set up vocabulary used later.
+2. **Type out every code example yourself.** Don't copy-paste. Typing forces your brain to notice details you'd otherwise skim past.
+3. **Answer the "Likely Interview Questions" out loud**, as if someone is sitting across from you. Saying an answer out loud is very different from thinking you know it.
+4. **Re-read the "Common Beginner Mistakes" sections a second time** after finishing the lesson — they'll make more sense once you've seen the full picture.
+5. **Finish with Lesson 14 (Mock Interview Q&A)** as a final rehearsal, ideally a day or two before your real interview.
 
-### High-Fidelity Wireframes  
-More detailed and refined versions, often closer to the final design. They include specific layout and design elements such as spacing, typography, and sometimes basic interactivity, providing a clearer vision of the end product.
+---
 
-## in figme given the types of wireframing present is
-* Low fidelity wireframe as it use simple designs and styles without detailed design.
-## Wireframing Tools
-### Recommended Tool: Figma
+## 📚 Lesson Index
 
-**Figma** is a cloud-based design tool ideal for wireframing and UI/UX design. It allows real-time collaboration, supports both low- and high-fidelity wireframes, and requires no installation. With its intuitive interface and built-in prototyping features, Figma makes it easy to design, share, and iterate on wireframes efficiently.
+| # | Lesson | What you'll learn |
+|---|--------|-------------------|
+| 01 | [Data Structures & Algorithms](01-data-structures-and-algorithms.md) | Arrays, hash maps, when to use which, common interview traps |
+| 02 | [Time & Space Complexity](02-time-complexity.md) | Big-O notation, O(1)/O(n)/O(n²), why performance matters |
+| 03 | [Databases & Normalization](03-databases-and-normalization.md) | Tables, rows, columns, 1NF/2NF/3NF, why normalization matters |
+| 04 | [Keys & Relationships](04-keys-and-relationships.md) | Primary/foreign keys, 1:1, 1:N, N:N, SQL examples |
+| 05 | [ORM & the N+1 Query Problem](05-orm-and-n-plus-one.md) | What an ORM is, when to avoid it, detecting and fixing N+1 |
+| 06 | [Python for Backend](06-python-backend-fundamentals.md) | Clean code, functions, classes, dependency injection |
+| 07 | [FastAPI](07-fastapi.md) | Pydantic validation, CRUD APIs, error handling, async basics |
+| 08 | [Testing: Unit, Integration, E2E](08-testing-unit-integration-e2e.md) | Testing pyramid, pytest examples, what interviewers expect |
+| 09 | [Code Coverage](09-code-coverage.md) | What coverage measures, why 100% isn't the goal |
+| 10 | [Docker (High Level)](10-docker-high-level.md) | Containers vs VMs, Dockerfiles, why companies use Docker |
+| 11 | [Git & Commit Messages](11-git-and-commit-messages.md) | Git workflow, writing clean commits, examples of good vs bad |
+| 12 | [GitHub Actions & CI](12-github-actions-ci.md) | What CI is, why it matters, a simple pipeline example |
+| 13 | [Interview Mindset: "Why This, Not That?"](13-interview-why-this-not-that.md) | Explaining trade-offs, handling "I don't know" moments |
+| 14 | [Mock Interview Q&A](14-mock-interview-qna.md) | Full rehearsal with model answers across every topic |
 
-## Benefits of Wireframing in Software Development
+---
 
-Wireframing plays a crucial role in the software development process by providing a clear visual foundation before coding begins. Here are some key benefits:
+## 🧠 What makes a good backend interview answer?
 
-- **Clarifies Requirements:** Helps stakeholders and developers align on features, layout, and user flow early in the project.
-- **Saves Time and Cost:** Identifies usability issues and design flaws before development, reducing rework and technical debt.
-- **Improves Collaboration:** Serves as a communication bridge between designers, developers, and clients by visually demonstrating ideas.
-- **Enhances User Experience:** Focuses on structure and functionality, ensuring the product is intuitive and user-friendly from the start.
-- **Guides Development:** Acts as a blueprint for developers, making implementation more accurate and efficient.
+Before you start, internalize this one idea — it will be repeated throughout the roadmap because it matters more than any single fact:
 
-By incorporating wireframes early in the development cycle, teams can build better products faster and with fewer misunderstandings.
+> **Interviewers are not grading you on whether you know the "right" answer. They are grading you on whether you can *think out loud*, justify a choice, and recognize trade-offs.**
 
-## How Wireframes Guide Design and Team Communication
+A junior who says *"I'd use a hash map here because I need fast lookups by key, even though it costs a bit more memory"* will often outscore someone who blurts out *"hash map"* with no reasoning — even if both gave the "same" answer.
 
-Wireframes help align the team's vision by outlining the layout, functionality, and flow of a product early in the design process. For example, in our [Figma wireframe project](https://www.figma.com/design/E2BRqdPcKkrnX6hLGPto8Z/Project-Airbnb?node-id=1-2&p=f), clear placement of navigation, filters, and booking sections helps designers
-and developers understand the user journey. This shared visual reference improves collaboration, reduces misunderstandings, and speeds up decision-making.
+Keep that in mind in every lesson. We don't just teach you *what* — we teach you *why*, because *why* is what gets scored.
 
-## Wireframing in Practice
+---
 
-### Real-World Scenario:
-In the early stages of designing the [Project Airbnb](https://www.figma.com/design/E2BRqdPcKkrnX6hLGPto8Z/Project-Airbnb?node-id=1-2&p=f) interface, wireframes revealed a usability issue: users had difficulty locating the booking button due to its placement below the fold on smaller screens. During the wireframing phase, this issue was identified through team reviews and user walkthroughs.
+## ✅ Suggested Study Plan
 
-### Resolution:
-The design team repositioned the booking button higher on the page and made it more visually prominent. This adjustment improved the visibility of key actions and streamlined the user journey.
+| Week | Focus |
+|------|-------|
+| Week 1 | Lessons 01–04 (DSA, Big-O, Databases, Keys) |
+| Week 2 | Lessons 05–07 (ORM, Python, FastAPI) |
+| Week 3 | Lessons 08–10 (Testing, Coverage, Docker) |
+| Week 4 | Lessons 11–14 (Git, CI, Interview Mindset, Mock Q&A) |
 
-### Impact:
-Because the issue was caught during the wireframing phase—before any development began—it saved time, avoided costly rework, and improved the overall user experience.
+If your interview is sooner, you can compress this — but don't skip Lesson 13 and 14. They are what tie everything together.
 
-### Conclusion:
-Wireframing plays a critical role in identifying usability issues early, aligning teams, and ensuring the final product is intuitive and user-friendly. It acts as a blueprint that reduces risk, enhances collaboration, and leads to more effective design decisions.
+---
 
+## 📌 A note on tone
 
+Every lesson is written the way a senior engineer would mentor a junior they actually care about: clearly, patiently, and honestly — including admitting where things are genuinely confusing at first. There is no "just memorize this" anywhere in this roadmap. If something feels like memorization, it means we haven't explained the *why* well enough — re-read the real-world example in that section, and it should click.
 
+Good luck. You've got this. 🚀
+
+**Start here →** [Lesson 01: Data Structures & Algorithms](01-data-structures-and-algorithms.md)
